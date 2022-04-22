@@ -1,0 +1,10 @@
+bread 1 10
+banana 2 3
+milk 3 5
+playstation6 4 999.99
+sportszelet 5 0.0001
+ppp_book 6 33
+keyboard 7 59.99
+water 8 1
+air 9 0
+farcry6 10 19.99
