@@ -80,7 +80,7 @@ int main()
     cout << endl;
 
     // 4, program4
-    //program_4();
+    program_4();
 
     // 5, floating-point values in matrix
     cout << "Type 10 floating point nubers!" << endl;
