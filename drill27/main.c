@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <unistd.h>
 
-void function(char* p, int x)
+void function(const char* p,const int x)
 {
     printf("p is %s and x is %i\n",p,x);
 }
@@ -15,8 +15,12 @@ int main()
     // 2
     char hello[] = "Hello";
     char world[] = "World!";
-
     printf("%s %s\n",hello,world);
+
+    // Másik variáció
+    //char* _hello = "Hello";
+    //char* _world = "World!";
+    //printf("%s %s\n",_hello,_world);
 
     // 3
     function("macska",20);
