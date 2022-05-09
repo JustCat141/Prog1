@@ -16,7 +16,7 @@ public:
     }
 };
 
-class D1 : B1{
+class D1 : public B1{
 public:
     virtual void vf() override
     {
@@ -28,8 +28,9 @@ public:
     }
 };
 
-class D2 : D1
+class D2 : public D1
 {
+    public:
     void pvf() override
     {
         cout << "D2:pvf()" << endl;
@@ -38,14 +39,16 @@ class D2 : D1
 
 class B2
 {
+    public:
     virtual void pvf()
     {
         cout << "B2:pvf()" << endl;
     }
 };
 
-class D21 : B2
+class D21 : public B2
 {
+    public:
     string asd = "help";
     void pvf() override
     {
@@ -53,7 +56,8 @@ class D21 : B2
     }
 };
 
-class D22 : B2 {
+class D22 : public B2 {
+    public:
     int i = 8347;
     void pvf() override 
     { 
